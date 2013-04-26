@@ -24,6 +24,7 @@
 #import "js_core.h"
 #import "OpenGLView.h"
 #import "Reachability.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 // Splash Screen Descriptor
 struct SplashDescriptor {

@@ -248,6 +248,7 @@
 	if (self.pluginManager) {
 		[self.pluginManager applicationWillTerminate:application];
 	}
+    [[FBSession activeSession] close];
 
 }
 
@@ -330,6 +331,7 @@
 	if (self.pluginManager) {
 		[self.pluginManager handleOpenURL:url];
 	}
+    [[FBSession activeSession] handleOpenURL:url];
 
 	return YES;
 }

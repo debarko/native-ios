@@ -22,6 +22,7 @@
 #import "js/jsSocket.h"
 #import "js/jsOverlay.h"
 #import "js/jsSound.h"
+#import "js/jsFacebook.h"
 #import "js/jsLocalStorage.h"
 #import "js/jsXHR.h"
 #import "js/jsPurchase.h"

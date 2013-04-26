@@ -53,6 +53,7 @@ CEXPORT bool init_js(const char *uri, const char *version) {
 		[jsConsole addToRuntime:js];
 		[jsGL addToRuntime:js];
 		[jsSound addToRuntime:js];
+		[jsFacebook addToRuntime:js];
 		[jsLocalStorage addToRuntime:js];
 		[jsXHR addToRuntime:js];
 		[jsPurchase addToRuntime:js];
@@ -99,6 +100,7 @@ CEXPORT bool destroy_js() {
 		[jsConsole onDestroyRuntime];
 		[jsGL onDestroyRuntime];
 		[jsSound onDestroyRuntime];
+		[jsFacebook onDestroyRuntime];
 		[jsLocalStorage onDestroyRuntime];
 		[jsXHR onDestroyRuntime];
 		[jsPurchase onDestroyRuntime];
