@@ -47,6 +47,12 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string></string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
 				<string>${PRODUCT_NAME}</string>
 				<string>fbtealeaf</string>
 			</array>
@@ -82,6 +88,10 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>FacebookAppID</key>
+	<string></string>
+	<key>FacebookDisplayName</key>
+	<string></string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
